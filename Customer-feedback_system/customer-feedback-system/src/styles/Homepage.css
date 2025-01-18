@@ -1,0 +1,109 @@
+/* Homepage container styles */
+.homepage-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #87ceeb;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5%;
+  overflow: hidden;
+}
+
+/* Text container styles */
+.text-container {
+  position: relative;
+  color: #fff;
+  z-index: 10;
+}
+
+.text-container h1 {
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 18px;
+  color: rgb(218, 173, 13);
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: blue;
+  margin-bottom: 20px;
+}
+
+/* Image container styles */
+.image-container {
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  z-index: 5;
+}
+
+/* Icon styles */
+.icon-1,
+.icon-2,
+.icon-3 {
+  position: absolute;
+  z-index: 5;
+}
+
+.icon-1 {
+  top: 20%;
+  right: 10%;
+}
+
+.icon-2 {
+  top: 70%;
+  left: 30%;
+}
+
+.icon-3 {
+  top: 20%;
+  right: 45%;
+}
+
+/* Animated icon styles */
+.animated-icon {
+  max-width: 700px;
+  height: auto;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.homepage-container.loaded .animated-icon {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Image styles */
+.image-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+
+.icon-1 img,
+.icon-2 img,
+.icon-3 img {
+  width: 70px;
+  height: auto;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .image-container img {
+    width: 100px;
+  }
+  .icon-1 img,
+  .icon-2 img,
+  .icon-3 img {
+    width: 50px;
+  }
+}

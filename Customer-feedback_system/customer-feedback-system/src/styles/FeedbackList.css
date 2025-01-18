@@ -1,0 +1,61 @@
+.feed-back-container {
+  padding: 2rem;
+}
+.card {
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+  padding: 1rem;
+}
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-category {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  /* color: blue; */
+}
+
+.card-rating {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(188, 180, 59);
+}
+
+.card-user-details {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  /* color: burlywood; */
+}
+
+.card-footer {
+  background-color: bisque;
+  text-align: right;
+  border-top: 1px solid black;
+}
+.btn {
+  margin: 0.25rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.pagination button {
+  background-color: rgb(174, 174, 195);
+}
+
+.pagination span {
+  margin: 0 1rem;
+  font-size: 16px;
+}

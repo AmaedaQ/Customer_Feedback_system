@@ -1,0 +1,107 @@
+.main-container {
+  background-color: #87ceeb;
+}
+
+.form-heading {
+  color: #0d1c7e;
+  font-size: 22px;
+  font-family: cursive;
+}
+
+.feedback-form-container {
+  width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: azure;
+}
+
+.form {
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 120px; /* Adjust as needed */
+}
+
+.form-control {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.rating-options .rating-field {
+  display: flex;
+  gap: 5px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.form-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.text-danger {
+  color: red;
+  font-size: 12px;
+}
+
+.alert {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #d4edda; /* Light green background for success messages */
+  color: #155724; /* Dark green text color */
+}
+
+.form-group .description-field {
+  width: 80%;
+}
+
+.form-group .title-field {
+  width: 60%;
+}
+
+.form-group .category-field {
+  width: 30%; /* Adjust width as needed */
+}
+
+.form-group .rating-field {
+  width: 40%; /* Adjust width as needed */
+}
